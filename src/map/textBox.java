@@ -1,10 +1,3 @@
-package firstProcessing;
-/*
- * credits to Leong Kai Ler 
- * creates a text box without using external library controlP5 
- * takes in input from the user to check if the string is available in the county list 
- * invalid input if string is invalid or doesn't exist
- */
 import processing.core.*;
 public class textBox {
 	private PApplet parent;
@@ -63,7 +56,7 @@ public class textBox {
 
 	public boolean doesExist ( String [] list )
 	{
-		this.exist=false;
+		
 		for ( int index = 0; index<list.length; index++ )
 		{
 			if (this.textField.equalsIgnoreCase(list[index]))
