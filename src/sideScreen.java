@@ -53,9 +53,9 @@ public class sideScreen {
 		this.parent.textAlign(PConstants.LEFT,PConstants.CENTER);
 		this.parent.textSize(12);
 		this.parent.text(data.returnCountyName(), 210, 175);
-		this.parent.text("£"+ data.getAveragePrice(), 210, 235);
-		this.parent.text("£"+ data.getLowestPrice(), 210, 295);
-		this.parent.text("£"+ data.getHighestPrice(), 210, 355);
+		this.parent.text("Â£"+ data.getAveragePrice(), 210, 235);
+		this.parent.text("Â£"+ data.getLowestPrice(), 210, 295);
+		this.parent.text("Â£"+ data.getHighestPrice(), 210, 355);
 		this.parent.text(data.getQuantity(), 210, 415);
 	}
 	
