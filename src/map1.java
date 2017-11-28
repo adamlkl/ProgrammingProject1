@@ -79,7 +79,7 @@ public class map1 {
 			this.parent.fill(0);
 			this.parent.textAlign(PConstants.CENTER,PConstants.CENTER);
 			this.parent.textSize(10);
-			this.parent.text("<£"+this.threshHold[index],ProgrammingProject.SCREEN_WIDTH-ProgrammingProject.MAP_X_SIZE+27+63*index,ProgrammingProject.SCREEN_HEIGHT-75);
+			this.parent.text("<Â£"+this.threshHold[index],ProgrammingProject.SCREEN_WIDTH-ProgrammingProject.MAP_X_SIZE+27+63*index,ProgrammingProject.SCREEN_HEIGHT-75);
 		}
 		this.myScreen.showInformationBox();
 		if(dataToBeDisplayed!=null)
