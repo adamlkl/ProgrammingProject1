@@ -149,9 +149,9 @@ public class BarChart {
 			switch(this.variation) {
 			case 1:
 				p.textSize(16);
-				p.text("Avg. Prices in £ of Houses Sold at Selected Locations", ProgrammingProject.SCREEN_WIDTH+50-ProgrammingProject.GRAPH_X_SIZE/2, ProgrammingProject.SCREEN_HEIGHT-ProgrammingProject.GRAPH_Y_SIZE);
+				p.text("Avg. Prices in Â£ of Houses Sold at Selected Locations", ProgrammingProject.SCREEN_WIDTH+50-ProgrammingProject.GRAPH_X_SIZE/2, ProgrammingProject.SCREEN_HEIGHT-ProgrammingProject.GRAPH_Y_SIZE);
 				p.textSize(13);
-				p.text("Avg. Price in £", ProgrammingProject.SCREEN_WIDTH-ProgrammingProject.GRAPH_X_SIZE, ProgrammingProject.SCREEN_HEIGHT-300);
+				p.text("Avg. Price in Â£", ProgrammingProject.SCREEN_WIDTH-ProgrammingProject.GRAPH_X_SIZE, ProgrammingProject.SCREEN_HEIGHT-300);
 				p.text("Locations", 870, ProgrammingProject.SCREEN_HEIGHT-20);
 				for (int i=0; i<yValues.length; i++) {
 					double height = ((double)yValues[i]/(double)YScale)*50;
@@ -184,7 +184,7 @@ public class BarChart {
 				p.text("Quantity of Houses Sold by Price Range", ProgrammingProject.SCREEN_WIDTH+50-ProgrammingProject.GRAPH_X_SIZE/2, ProgrammingProject.SCREEN_HEIGHT-ProgrammingProject.GRAPH_Y_SIZE );
 				p.textSize(13);
 				p.text("Quantity", ProgrammingProject.SCREEN_WIDTH-ProgrammingProject.GRAPH_X_SIZE, ProgrammingProject.SCREEN_HEIGHT-300);
-				p.text("Price Range in Hundreds of Thousands of £", 870, ProgrammingProject.SCREEN_HEIGHT-20);
+				p.text("Price Range in Hundreds of Thousands of Â£", 870, ProgrammingProject.SCREEN_HEIGHT-20);
 				int priceRange=0;
 				for (int i=0; i<yValues.length; i++) {
 					double height = ((double)yValues[i]/(double)YScale)*50;
@@ -219,9 +219,9 @@ public class BarChart {
 				
 			case 5:
 				p.textSize(16);
-				p.text("Avg Prices in £ of House Property Types", ProgrammingProject.SCREEN_WIDTH+50-ProgrammingProject.GRAPH_X_SIZE/2, ProgrammingProject.SCREEN_HEIGHT-ProgrammingProject.GRAPH_Y_SIZE );
+				p.text("Avg Prices in Â£ of House Property Types", ProgrammingProject.SCREEN_WIDTH+50-ProgrammingProject.GRAPH_X_SIZE/2, ProgrammingProject.SCREEN_HEIGHT-ProgrammingProject.GRAPH_Y_SIZE );
 				p.textSize(13);
-				p.text("Avg. Price in £", ProgrammingProject.SCREEN_WIDTH-ProgrammingProject.GRAPH_X_SIZE, ProgrammingProject.SCREEN_HEIGHT-300);
+				p.text("Avg. Price in Â£", ProgrammingProject.SCREEN_WIDTH-ProgrammingProject.GRAPH_X_SIZE, ProgrammingProject.SCREEN_HEIGHT-300);
 				p.text("Property Types", 870, ProgrammingProject.SCREEN_HEIGHT-20);
 				for (int i=0; i<yValues.length; i++) {
 					double height = ((double)yValues[i]/(double)YScale)*50;
