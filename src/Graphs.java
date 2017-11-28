@@ -35,10 +35,7 @@ public class Graphs{
 		case 3:	
 			lineGraph=new LineGraph(ab, years, county, graphVariable);
 			break;
-		}
-		
-
-	
+		}	
 	}
 	
 	public void draw() {
@@ -58,15 +55,7 @@ public class Graphs{
 			lineGraph.displayPoints();
 			break;
 		}
-		
-
-	
 	}
-	
-
-	
-	
-	
 }
 	
 	
