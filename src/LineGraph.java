@@ -46,7 +46,7 @@ public class LineGraph {
 		
 		for (int i=0; i<yPoints.length;i++) {
 			if (variation==1) {
-				this.ylabel = "Avg Prices in £";
+				this.ylabel = "Avg Prices in Â£";
 				if ( years.get(i).equals("1999"))
 				{
 					int totalPrice = 0;
